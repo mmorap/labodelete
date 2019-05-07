@@ -1,0 +1,12 @@
+---
+- name: delete file
+  file:
+    state: absent
+    path: /tmp/move2/hola
+
+- name: delete folder 
+  file:
+    state: absent
+    path: /tmp/move2
+   
+...
